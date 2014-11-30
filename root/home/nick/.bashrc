@@ -17,6 +17,6 @@ alias nix-search='nixsearch'
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 # For systems without persistent /etc/
-else [ -f ./.etcbashrc ]; then
+elif [ -f ./.etcbashrc ]; then
         . ./.etcbashrc
 fi
