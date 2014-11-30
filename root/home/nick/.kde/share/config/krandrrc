@@ -1,0 +1,20 @@
+[Display]
+ApplyOnStartup=true
+StartupCommands=xrandr --output DisplayPort-0 --pos 0x200 --mode 1920x1200 --refresh 59.9502\nxrandr --output eDP --pos 1920x0 --mode 2560x1440 --refresh 59.9506\nxrandr --output eDP --primary
+
+[Screen_0]
+OutputsUnified=false
+UnifiedRect=0,0,0,0
+UnifiedRotation=1
+
+[Screen_0_Output_DisplayPort-0]
+Active=true
+Rect=0,200,1920,1200
+RefreshRate=59.9501724243164
+Rotation=1
+
+[Screen_0_Output_eDP]
+Active=true
+Rect=1920,0,2560,1440
+RefreshRate=59.9505500793457
+Rotation=1

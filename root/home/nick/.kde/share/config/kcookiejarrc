@@ -1,0 +1,10 @@
+[$Version]
+update_info=kcookiescfg.upd:kde2.2/b1,kcookiescfg.upd:kde3.1/cvs,kcookiescfg.upd:kde4.10/git
+
+[Cookie Dialog]
+PreferredPolicy=0
+ShowCookieDetails=false
+
+[Cookie Policy]
+CookieDomainAdvice=.kde.org:Accept
+CookieGlobalAdvice=Accept

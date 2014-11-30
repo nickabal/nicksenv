@@ -1,0 +1,34 @@
+[BackgroundConfigDialog]
+Height 1440=719
+Width 2560=649
+
+[PlasmaViews][3]
+panelVisibility=0
+
+[PlasmaViews][3][Sizes]
+lastsize=2560
+
+[Updates]
+performed=/nix/store/9mlm1f5g3m0yc8cln5fyfdvks6i5zfvm-system-path/share/apps/plasma-desktop/updates/set-hidden-single-vd-pager.js,/nix/store/9mlm1f5g3m0yc8cln5fyfdvks6i5zfvm-system-path/share/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js,/nix/store/9mlm1f5g3m0yc8cln5fyfdvks6i5zfvm-system-path/share/apps/plasma-desktop/updates/systray-to-notifications-widget.js,/nix/store/5995jxinmp9lh6c5dnfncnaniy3cpgmj-system-path/share/apps/plasma-desktop/updates/set-hidden-single-vd-pager.js,/nix/store/5995jxinmp9lh6c5dnfncnaniy3cpgmj-system-path/share/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js,/nix/store/5995jxinmp9lh6c5dnfncnaniy3cpgmj-system-path/share/apps/plasma-desktop/updates/systray-to-notifications-widget.js
+
+[ViewIds]
+1=1
+12=3
+17=3
+8=2
+
+[mount]
+__file=
+
+[remove]
+Id=00000000-0000-0000-0000-000000000000
+__file=
+
+[toggleActivityManager]
+__file=
+
+[unmount]
+__file=
+
+[updateFreespace]
+__file=

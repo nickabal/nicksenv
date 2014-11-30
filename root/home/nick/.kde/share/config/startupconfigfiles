@@ -1,0 +1,96 @@
+kcminputrc Mouse cursorTheme 'Oxygen_White'
+!/home/nick/.kde/share/config/kcminputrc
+!/home/nick/.nix-profile/share/config/kcminputrc
+!/nix/var/nix/profiles/default/share/config/kcminputrc
+!/run/current-system/sw/share/config/kcminputrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/kcminputrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/kcminputrc
+*
+kcminputrc Mouse cursorSize ''
+!/home/nick/.kde/share/config/kcminputrc
+!/home/nick/.nix-profile/share/config/kcminputrc
+!/nix/var/nix/profiles/default/share/config/kcminputrc
+!/run/current-system/sw/share/config/kcminputrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/kcminputrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/kcminputrc
+*
+ksplashrc KSplash Theme Default
+!/home/nick/.kde/share/config/ksplashrc
+!/home/nick/.nix-profile/share/config/ksplashrc
+!/nix/var/nix/profiles/default/share/config/ksplashrc
+!/run/current-system/sw/share/config/ksplashrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/ksplashrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/ksplashrc
+*
+ksplashrc KSplash Engine KSplashX
+!/home/nick/.kde/share/config/ksplashrc
+!/home/nick/.nix-profile/share/config/ksplashrc
+!/nix/var/nix/profiles/default/share/config/ksplashrc
+!/run/current-system/sw/share/config/ksplashrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/ksplashrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/ksplashrc
+*
+krandrrc Display ApplyOnStartup false
+/home/nick/.kde/share/config/krandrrc
+!/home/nick/.nix-profile/share/config/krandrrc
+!/nix/var/nix/profiles/default/share/config/krandrrc
+!/run/current-system/sw/share/config/krandrrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/krandrrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/krandrrc
+*
+krandrrc Display StartupCommands ''
+/home/nick/.kde/share/config/krandrrc
+!/home/nick/.nix-profile/share/config/krandrrc
+!/nix/var/nix/profiles/default/share/config/krandrrc
+!/run/current-system/sw/share/config/krandrrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/krandrrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/krandrrc
+*
+krandrrc [Screen0]
+/home/nick/.kde/share/config/krandrrc
+!/home/nick/.nix-profile/share/config/krandrrc
+!/nix/var/nix/profiles/default/share/config/krandrrc
+!/run/current-system/sw/share/config/krandrrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/krandrrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/krandrrc
+*
+krandrrc [Screen1]
+/home/nick/.kde/share/config/krandrrc
+!/home/nick/.nix-profile/share/config/krandrrc
+!/nix/var/nix/profiles/default/share/config/krandrrc
+!/run/current-system/sw/share/config/krandrrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/krandrrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/krandrrc
+*
+krandrrc [Screen2]
+/home/nick/.kde/share/config/krandrrc
+!/home/nick/.nix-profile/share/config/krandrrc
+!/nix/var/nix/profiles/default/share/config/krandrrc
+!/run/current-system/sw/share/config/krandrrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/krandrrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/krandrrc
+*
+krandrrc [Screen3]
+/home/nick/.kde/share/config/krandrrc
+!/home/nick/.nix-profile/share/config/krandrrc
+!/nix/var/nix/profiles/default/share/config/krandrrc
+!/run/current-system/sw/share/config/krandrrc
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/krandrrc
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/krandrrc
+*
+kcmfonts General forceFontDPI 0
+!/home/nick/.kde/share/config/kcmfonts
+!/home/nick/.nix-profile/share/config/kcmfonts
+!/nix/var/nix/profiles/default/share/config/kcmfonts
+!/run/current-system/sw/share/config/kcmfonts
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/kcmfonts
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/kcmfonts
+*
+kdeglobals Locale Language '' # trigger requesting languages from KLocale
+/home/nick/.kde/share/config/kdeglobals
+!/home/nick/.nix-profile/share/config/kdeglobals
+!/nix/var/nix/profiles/default/share/config/kdeglobals
+!/run/current-system/sw/share/config/kdeglobals
+!/nix/store/3fj1anyp9kila7xqw3c1l0pq10zrbj72-kdelibs-4.12.4/share/config/kdeglobals
+!/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/config/kdeglobals
+*

@@ -1,0 +1,24 @@
+#! /bin/sh
+# kcminputrc Mouse cursorTheme 'Oxygen_White'
+kcminputrc_mouse_cursortheme=Oxygen_White
+# kcminputrc Mouse cursorSize ''
+kcminputrc_mouse_cursorsize=''
+# ksplashrc KSplash Theme Default
+ksplashrc_ksplash_theme=Default
+# ksplashrc KSplash Engine KSplashX
+ksplashrc_ksplash_engine=KSplashX
+# krandrrc Display ApplyOnStartup false
+krandrrc_display_applyonstartup=true
+# krandrrc Display StartupCommands ''
+krandrrc_display_startupcommands='xrandr --output DisplayPort-0 --pos 0x200 --mode 1920x1200 --refresh 59.9502
+xrandr --output eDP --pos 1920x0 --mode 2560x1440 --refresh 59.9506
+xrandr --output eDP --primary'
+# krandrrc [Screen0]
+# krandrrc [Screen1]
+# krandrrc [Screen2]
+# krandrrc [Screen3]
+# kcmfonts General forceFontDPI 0
+kcmfonts_general_forcefontdpi=0
+# kdeglobals Locale Language '' # trigger requesting languages from KLocale
+kdeglobals_locale_language=''
+klocale_languages=en_US

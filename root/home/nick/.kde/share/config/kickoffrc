@@ -1,0 +1,8 @@
+[Favorites]
+FavoriteURLs=/nix/store/i7dqyr41mkah83z2c0s7a3kqfxb59zvn-kde-baseapps-4.12.4/share/applications/kde4/konqbrowser.desktop,/nix/store/6ib3acvvfwwi7cfqkhhn5nm1b913vy23-kde-workspace-4.11.6/share/applications/kde4/systemsettings.desktop,/nix/store/i7dqyr41mkah83z2c0s7a3kqfxb59zvn-kde-baseapps-4.12.4/share/applications/kde4/dolphin.desktop
+
+[KRunner]
+loadAll=false
+
+[KRunner][PlasmaRunnerManager]
+pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations
