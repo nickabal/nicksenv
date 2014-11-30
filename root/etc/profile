@@ -52,7 +52,9 @@ else
     export HISTCONTROL=ignoredups
 fi
 
-export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL
+# exporting path here causes issue with nixos path
+export USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL
+#export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL
 
 # By default, we want umask to get set. This sets it for login shell
 # Current threshold for system reserved uid/gids is 200
