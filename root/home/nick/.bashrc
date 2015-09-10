@@ -1,20 +1,27 @@
 # .bashrc
 
-# Share histories between terminals
-# Avoid duplicates
-#export HISTCONTROL=ignoredups:erasedups  
-# When the shell exits, append to the history file instead of overwriting it
-#shopt -s histappend
-# After each command, append to the history file and reread it
-#export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
-
-
 ##########
 #
 # Generic
 #
 ##########
 
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+
+####
+# Share histories between terminals
+# Avoid duplicates
+#export HISTCONTROL=ignoredups:erasedups
+# When the shell exits, append to the history file instead of overwriting it
+#shopt -s histappend
+# After each command, append to the history file and reread it
+#export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+####
+
+export QEMU_AUDIO_DRV=alsa
+export HISTFILESIZE=10000
 
 # Recusive wgets
 alias wgetR2='wget -m -e robots=off --no-parent'
@@ -26,7 +33,22 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias ll='ls -l'
 alias la='ls -lA'
+alias grep='grep --color=always'
 alias rt='sudo su -'
+alias disks='sudo fdisk -l | grep "Disk /"'
+
+# Launch and disown
+launch_f() {
+$@ &
+disown
+}
+alias launch='launch_f'
+
+# Find skipping NFS mounts
+findr_f() {
+sudo find $@ -xdev
+}
+alias findr='findr_f'
 
 
 ##########
@@ -74,8 +96,7 @@ case $1 in
   remote=yes
   ;;
 *)
-  options="caughtatbottom"
-  exit "caught here"
+  exit "???"
   ;;
 esac
 for package in $(xbps-query $options $search | awk '{print $2}' | rev | cut -f2- -d "-" | rev); do 
@@ -116,8 +137,6 @@ alias search3='search_function3'
 # Install 
 alias inst='sudo xbps-install -Sy'
 
-
-
 ##########
 #
 # Nixos 
@@ -129,13 +148,33 @@ nix-env -qaP '*' --description | grep -i $1
 }
 alias nix-search='nixsearch'
 
-
-
-
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-        . /etc/bashrc
 # For systems without persistent /etc/
 elif [ -f ./.etcbashrc ]; then
         . ./.etcbashrc
 fi
+
+##########
+#
+# Wine
+#
+##########
+
+winepre_f() {
+user=`id -un` 
+dash=`echo -n $RANDOM |sha1sum` ##gives hash with trailing dash
+read hash rest <<< "$dash" ##removes dash gives hash
+echo
+echo export WINEPREFIX=/home/$user/.wine_prefix/$hash
+echo mkdir -p /home/$user/.wine_prefix/$hash
+echo
+echo wine winecfg
+echo
+}
+alias winepre='winepre_f'
+
+winedef_f() {
+echo export WINEPREFIX=/home/$user/.wine
+}
+alias winedef='winedef_f'
+
+
